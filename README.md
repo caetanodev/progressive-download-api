@@ -1,2 +1,2 @@
-# logstream-api
-Aplicação responsável pela gestão e armazenamento dos logs de todo sistema
+# progressive-download-api
+Aplicação para exemplificação de como executar um processo de download progressivo.
