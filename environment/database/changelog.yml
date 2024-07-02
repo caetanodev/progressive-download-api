@@ -1,0 +1,1089 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: lcaetano
+      changes:
+        - createTable:
+            tableName: mock_data
+            columns:
+              - column:
+                  name: id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: first_name
+                  type: VARCHAR(100)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: last_name
+                  type: VARCHAR(200)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: email
+                  type: VARCHAR(200)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: gender
+                  type: VARCHAR(200)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: ip_address
+                  type: VARCHAR(20)
+                  constraints:
+                    nullable: false
+  - changeSet:
+      id: 2
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 3
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 4
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 5
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 6
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 7
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 8
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 9
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 10
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 11
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 12
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 13
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 14
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 15
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 16
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 17
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 18
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 19
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 20
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 21
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 22
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 23
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 24
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 25
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 26
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 27
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 28
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 29
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 30
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 31
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 32
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 33
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 34
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 35
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 36
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 37
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 38
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 39
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 40
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 41
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 42
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 43
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 44
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 45
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 46
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 47
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 48
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 49
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 50
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 51
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 52
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 53
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 54
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 55
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 56
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 57
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 58
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 59
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 60
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 61
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 62
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 63
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 64
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 65
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 66
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 67
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 68
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 69
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 70
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 71
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 72
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 73
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 74
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 75
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 76
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 77
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 78
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 79
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 80
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 81
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 82
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 83
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 84
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 85
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 86
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 87
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 88
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 89
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 90
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 91
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 92
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 93
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 94
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 95
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 96
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 97
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 98
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 99
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 100
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 101
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 102
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 103
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 104
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 105
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 106
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 107
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 108
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 109
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 110
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 111
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 112
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 113
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 114
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 115
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 116
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 117
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 118
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 119
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 120
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 121
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 122
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 123
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 124
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 125
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 126
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 127
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 128
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 129
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 130
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 131
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 132
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 133
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 134
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 135
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 136
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 137
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 138
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 139
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true      
+  - changeSet:
+      id: 140
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 141
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 142
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 143
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 144
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 145
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 146
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 147
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 148
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 149
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 150
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 151
+      author: lcaetano
+      changes:
+        - sqlFile:
+            path: ../scripts/load-charge.sql
+            relativeToChangelogFile: true

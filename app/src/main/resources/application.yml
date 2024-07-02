@@ -1,0 +1,33 @@
+spring:
+  config:
+    additional-location: ${SPRING_CONFIG_ADDITIONAL_LOCATION}
+  datasource:
+    driverClassName: ${JDBC_DRIVER}
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    test-while-idle: true
+    test-on-borrow: true
+    hikari: 
+      connection-test-query: select 1 from dual
+      minimum-idle: 2
+      idle-timeout: 20000
+      maximum-pool-size: 20
+      max-lifetime: 30000
+      connection-timeout: 30000
+  jpa:
+   show-sql: false
+   properties:
+      hibernate:
+        format_sql: true
+        enable_lazy_load_no_trans: true
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+server:
+  port : 8081
